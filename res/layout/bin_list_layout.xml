@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/padding_small"
+    android:paddingTop="@dimen/padding_medium">
+   
+
+        <LinearLayout
+	        android:orientation="vertical"
+	        android:layout_width="275dp"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/list_item_shape">    
+         
+                <TextView
+			        android:id="@+id/BIN_LIST_HEAD"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/bin_name" 
+			        android:textSize="20dp"
+			        android:textColor="#ffffff" 
+			        android:paddingLeft="@dimen/padding_small"/>
+                
+			    <TextView
+			        android:id="@+id/BIN_LIST_DESC"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/bin_desc" 
+			        android:textColor="#fffccc"
+			        android:paddingLeft="@dimen/padding_small"/>
+
+        </LinearLayout>
+        <TextView
+			     android:layout_width="wrap_content"
+			     android:layout_height="wrap_content"
+			     android:text=" " 
+			     android:textColor="#00ff00"/>
+        <ImageView 
+                 android:id="@+id/BIN_LIST_EXPAND"
+			     android:layout_width="wrap_content"
+			     android:layout_height="50dp"
+			     android:src="@drawable/ic_expand"
+			     android:background="@drawable/expand_btn_shape"
+			     android:contentDescription="@string/edit"/>
+</LinearLayout>

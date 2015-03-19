@@ -1,0 +1,48 @@
+<resources>
+
+    <string name="app_name">BinIT</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="icons">Dashboard icons</string>
+    <string name="bin_name">Bin Name</string>
+    <string name="bin_desc">Bin Description</string>
+    <string name="add">Add Bin</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="view2">View</string>
+    <string name="view1">View Bin</string>
+    <string name="view_map">Map View</string>
+    <string name="about_app">About App</string>
+    <string name="place">Place Name</string>
+    <string name="person">mjmuheirwe@gmail.com</string>
+    <string name="reciept_img">Bin Image</string>
+    <string name="search_criteria">Location or Bin Name</string>
+    <string name="search">Search</string>
+    <string name="set_email">Set Email</string>
+    <string name="log_out">Log out</string>
+    <string name="status">You are not logged in</string>
+    <string name="email">Enter Email</string>
+    <string name="email_hint">abcd@efg.com</string>
+    <string name="about_binit">\n\n This is an application that is geared to allow you to cultivate the discipline of using waste bins at all times incase you want to dispose off your rubbish\n\n   Feel free to add bins to our database incase you are next to one and let the rest use that information if they are near you.\n\n</string>
+    <string name="team"> This application is made by;\n	Tugume James - (Project Lead)\n	Bishaka Samuel - Graphics Engineer\n	Kasagga Ronald - Database Admin\n	Muheirwe Julian - Android Developer</string>
+    
+    <string-array name="bin_spinner">
+        <item>View</item>
+        <item>Edit</item>
+        <item>Delete</item>
+    </string-array>
+    
+    <string-array name="action_bar_spinner">
+        <item>Bin List</item>
+        <item>Map View</item>
+    </string-array>
+    <string name="action_settings">settings</string>
+    <string name="radar">Bin Radar</string>
+    
+    
+
+    
+</resources>

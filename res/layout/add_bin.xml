@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/add_bin_bg">
+
+    <TextView
+        android:id="@+id/LOGGED_USER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="" />
+
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:paddingTop="70dp"
+    android:paddingLeft="@dimen/padding_large">
+    
+    
+    <TextView
+        android:id="@+id/bin_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bin_name" 
+        android:textSize="20dp"
+        android:textColor="#30db36"
+        />
+
+    <EditText
+        android:id="@+id/BIN_NAME"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffdd"
+        android:paddingLeft="20dp"
+        android:background="@drawable/edit_text_shape"
+        android:ems="10" >
+
+    </EditText>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/padding_large" />
+    
+    <TextView
+        android:id="@+id/bin_desc_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bin_desc"
+        android:textSize="20dp"
+        android:textColor="#30db36" />
+
+    <EditText
+        android:id="@+id/BIN_DESCRIPTION"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_shape"
+        android:textColor="#ffffdd"
+        android:padding="20dp"
+        android:ems="10"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+   
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/padding_large" />
+
+     <LinearLayout 
+   			 android:layout_width="wrap_content"
+		   	 android:layout_height="wrap_content"
+		     android:orientation="vertical"
+   			 android:paddingLeft="80dp">
+	    
+		    <Button 
+		        android:id="@+id/ADD_BIN_BTN"
+		        android:layout_width="110dp"
+		        android:layout_height="50dp"
+		        android:text="@string/add"
+		        android:textSize="20dp"
+		        android:textColor="#ffffdd"
+		        android:background="@drawable/list_item_shape"
+		        />
+    </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
